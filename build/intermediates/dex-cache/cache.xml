@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Android Project\demo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Android Project\demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_35ed2b8934331133158519532c79dcc93edc61ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Project\demo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fbd723ba3b399d9e723d3615fbdb19385c419e2e">
+        <dex dex="E:\Android Project\demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_75abc79a6ed97c4ecb853cdbf4f7eeab07ba1390\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Project\demo\app\libs\MobCommons-2017.0607.1736.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="26d8b21098208806ac92abba3cbbf9859cda903a">
+        <dex dex="E:\Android Project\demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0607.1736_c45607ff862052364a1206c4e8a4619faad7071d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Project\demo\app\libs\MobTools-2017.0607.1736.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd18b5e54c100ded555e92c371c16bea49002ed">
+        <dex dex="E:\Android Project\demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0607.1736_ae15a365509fb6edfeac1509997df36199370044\classes.dex" />
+    </item>
+
+</items>

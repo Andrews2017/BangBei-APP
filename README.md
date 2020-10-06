@@ -4,6 +4,7 @@ BangBei is a Chinese android app which was designed to be used inside the campus
 It has two main features: 
 - Asking Help
 - Offering Help
+
 The general view of BangBei can be seen in "doc" folder.
 ## Installation
 To install our App, click on this [link](https://drive.google.com/drive/folders/1mYh1lzrUecEMLVlhI70oCcWoHa-5HqCm), download it and follow the instructions.

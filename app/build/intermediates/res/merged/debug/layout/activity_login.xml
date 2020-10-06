@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logoicon"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+
+        <EditText
+            android:id="@+id/user_tel"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:hint="你的手机号码"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/user_passwd"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:inputType="textPassword"
+            android:hint="你的密码"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/imgBtn_login"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:background="@drawable/save_button_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="登录" />
+
+
+    <Button
+        android:id="@+id/imgBtn_register"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:background="@drawable/save_button_bg"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="注册" />
+
+
+</LinearLayout>

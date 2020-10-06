@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+      >
+        <ImageView
+            android:id="@+id/icon_offer_help_order"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/download"/>
+        <TextView
+            android:id="@+id/txt_offer_help_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@id/icon_offer_help_order"
+            android:textSize="17dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:text="下单号：1"/>
+
+        <TextView
+            android:id="@+id/txt_offer_help_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#00CED1"
+            android:text="待完成"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true" />
+        <ImageView
+            android:id="@+id/icon_my_help_order_notes"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/icon_offer_help_order"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/beizhu"/>
+        <TextView
+            android:id="@+id/txt_offer_help_order_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#444444"
+            android:layout_toRightOf="@id/icon_my_help_order_notes"
+            android:layout_below="@id/txt_offer_help_order_id"
+            android:text="备注：是个大件，可能有点重，请中午12点送到我的寝室"/>
+
+        <ImageView
+            android:id="@+id/icon_my_help_order_helper_name"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/renwu"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/txt_offer_help_order_notes"/>
+        <TextView
+            android:id="@+id/txt_offer_help_order_seeker_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#444444"
+            android:layout_toRightOf="@id/icon_my_help_order_helper_name"
+            android:layout_below="@id/txt_offer_help_order_notes"
+            android:layout_marginLeft="5dp"
+            android:text="下单人："/>
+        <TextView
+            android:id="@+id/txt_offer_help_order_seeker_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#444444"
+            android:layout_below="@id/txt_offer_help_order_seeker_name"
+            android:layout_marginLeft="30dp"
+            android:text="电话    ："/>
+
+        <ImageView
+            android:id="@+id/btn_expand_order_info"
+            android:layout_width="20dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="9dp"
+            android:src="@drawable/zhankaijiantou"
+            />
+
+        <ImageView
+            android:id="@+id/img_order_complete_logo"
+            android:layout_width="85dp"
+            android:layout_height="63dp"
+            android:layout_toLeftOf="@id/btn_expand_order_info"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:visibility="gone"
+            android:src="@drawable/yiwancheng"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/expanded_order_info"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/dibufengexian"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/quhuoxinxi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:layout_marginLeft="8dp"
+                android:text="取货信息"/>
+        </LinearLayout>
+        <!--该TableLayout用于放置折叠的“手机号、取货号、取件人姓名”-->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="手机号"
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt_offer_help_owner_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="18dp"
+                    android:text="18483680996"
+
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="姓名"
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/txt_offer_help_owner_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="18dp"
+                    android:text="杨双吉"
+
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="取货号"
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt_offer_help_owner_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_column="1"
+                    android:text="4252"
+
+                    android:textSize="14sp" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/img_bottom_line"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dibufengexian"
+       />
+</LinearLayout>

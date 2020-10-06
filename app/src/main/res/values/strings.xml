@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">"帮呗"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_app_name">"帮呗"</string>
+
+    <string-array name="spinner_items">
+        <item>商业街</item>
+        <item>图书馆</item>
+        <item>品学楼</item>
+        <item>立人楼</item>
+        <item>宿舍</item>
+        <item>主楼</item>
+        <item>南门</item>
+        <item>西门</item>
+    </string-array>
+
+</resources>
+
+

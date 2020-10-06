@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.demo.Activities.HelpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bangzhu2"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:text="帮助"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@drawable/dibufengexian"/>
+
+        <TableLayout
+            android:layout_marginTop="18dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginRight="13dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.什么是帮呗？"
+                    android:textColor="#444444"
+                    android:textSize="17dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:paddingRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#666666"
+                    android:text="        帮呗是一款基于校园生活的APP，旨在提供同学之间互帮互助、顺路取快递的功能，力图营造和谐友善的校园氛围，并帮助用户充分实现自己的个人价值。"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="13dp"
+                >
+                <TextView
+                    android:textColor="#444444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.什么是财富值？"
+                    android:textSize="17dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:textColor="#666666"
+                    android:text="        财富值就是帮呗中流通的货币，你可以通过悬赏财富值并下订单的方式，让其他同学帮你取快递；同时，你也可以主动去接单帮助其他同学取快递，从而获得财富值。"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="13dp"
+                >
+                <TextView
+                    android:textColor="#444444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.有没有其他渠道快速获得财富值呢？"
+                    android:textSize="17dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:textColor="#666666"
+                    android:text="        除了每个新用户刚注册的时候会免费获得20个财富值，您只能通过帮助别人获得财富值哦！帮助别人越勤快，那您财富值积累的速度也就越快了。"/>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@drawable/dibufengexian"/>
+
+
+        <Button
+            android:id="@+id/btn_help_return"
+            android:layout_width="200sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp"
+            android:background="@drawable/save_button_bg"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="返回" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2018 Kobeyond All Rights Reserved"/>
+</LinearLayout>

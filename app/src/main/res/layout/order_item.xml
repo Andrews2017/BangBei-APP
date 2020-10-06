@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--此处item的background很重要！因为如果想设置分隔线，必须同时对item和RecyclerView同时设置颜色才行。
+    Activity界面默认的颜色是白色略偏灰的
+    如果只只设置RecyclerView的颜色，那么每个item的颜色也会跟着相同，从而体现不出色彩区别-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderItemLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:background="@android:color/white"
+    >
+    <!--该布局用于布置头像的图片、姓名、财富值图片、财富值数量-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp">
+
+        <!--该子布局用于竖直方向上放置头像和姓名-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/protraitImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/defaulthead"
+                />
+            <!--<ImageView-->
+                <!--android:id="@+id/protraitImage"-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:src="@drawable/defaulthead"/>-->
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="姓名"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <!--该子布局用于放置财富值Logo和财富值数量-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/jinbi2"/>
+            <TextView
+                android:id="@+id/moneyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="财富值"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="3dp">
+
+              <TableRow
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:src="@drawable/quhuodi"/>
+            <TextView
+                android:id="@+id/addr1Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical"
+                android:text="取货地点"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:src="@drawable/songhuodi"/>
+
+            <TextView
+                android:id="@+id/addr2Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical"
+                android:text="送货地点"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_column="1"
+                android:src="@drawable/beizhu"/>
+
+
+            <!--此处文本的Width一定要设置为wrap_content！！
+                否则文本太长会显示不全！！！！！！！！！！-->
+            <TextView
+                android:id="@+id/notesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="40dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical"
+                android:text="备注信息"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -5,4 +5,4 @@ It has two main features:
 - Asking Help
 - Offering Help
 ## Installation
-Click on this [link](https://drive.google.com/drive/folders/1mYh1lzrUecEMLVlhI70oCcWoHa-5HqCm), download it and follow the instructions
+To install our App, click on this [link](https://drive.google.com/drive/folders/1mYh1lzrUecEMLVlhI70oCcWoHa-5HqCm), download it and follow the instructions.

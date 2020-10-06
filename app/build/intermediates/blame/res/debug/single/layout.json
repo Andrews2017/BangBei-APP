@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_help_record.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_ask_help_record.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_help.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_ask_help.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navigate_item.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\navigate_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offer_help_record_item.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\offer_help_record_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_detail.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\me_item.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\me_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_item.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\order_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bmob_update_dialog.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\953a6243e0c3996ce0c6bcefac7f56fb070ff33b\\output\\res\\layout\\bmob_update_dialog.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_me.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\camera_dialog_layout.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\camera_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verificate.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_verificate.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ask_help_record_item.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\ask_help_record_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offer_help_record.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_offer_help_record.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\5a0c905c2f9193fcfb9b91ce69980a05ebec811a\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\e9dc800518b1e9e0ce64359839af5945ce01a86a\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orders.xml",
+        "source": "E:\\Android Project\\demo\\app\\src\\main\\res\\layout\\activity_orders.xml"
+    }
+]

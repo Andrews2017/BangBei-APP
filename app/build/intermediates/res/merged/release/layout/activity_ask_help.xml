@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--该ScrollView用于装填写订单的所有信息，即使有些手机屏幕很小，也能通过滑动查看到所有界面-->
+    <!--它height=0dp且weight=1，并与底部栏并列，能保证把底部栏永远挤到屏幕最下方-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+        <!--还要再套一个LinerLayout因为ScrollView只能有一个直接子控件-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--帮呗logo-->
+            <ImageView
+                android:id="@+id/title_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/title" />
+
+            <!--创建我的专属订单及logo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/download" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="创建我的专属订单"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+            <!--该TableLayout用于放置“悬赏财富、取货地址、送货地址、加密信息四行”-->
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/jinbi2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="悬赏财富"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/txt_paid_coins"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:hint="输入数量"
+                        android:maxLines="1"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/quhuodi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="取货地址"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_main_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:dropDownVerticalOffset="25dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="15dp" />
+
+                    <EditText
+                        android:id="@+id/txt_detail_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:hint="快递公司"
+                        android:maxLines="1"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/songhuodi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginTop="3dp"
+                        android:text="期待送达"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_owner_addr"
+                        android:layout_width="120sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:dropDownVerticalOffset="25dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="15dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:paddingBottom="7dp"
+                    android:paddingTop="9dp"
+                    android:layout_marginBottom="3dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/suo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加密信息"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </TableRow>
+            </TableLayout>
+
+            <!--该TableLayout用于放置“手机号、取货号、取件人姓名”-->
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="手机号"
+                        android:textColor="#444444"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/txt_owner_tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:width="400px"
+                        android:gravity="center"
+                        android:hint="您的联系方式"
+                        android:inputType="phone"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="姓名"
+                        android:textColor="#444444"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/txt_owner_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:width="100px"
+                        android:gravity="center"
+                        android:hint="取件人姓名"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:text="取货号"
+                        android:textColor="#444444"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/txt_owner_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:width="100px"
+                        android:gravity="center"
+                        android:hint="您的取货号"
+                        android:textSize="14sp" />
+                </TableRow>
+            </TableLayout>
+
+            <!--“备注”以及LOGO-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/shouyebeizhu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="备注信息"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <!--“备注”文本框-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txt_notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="具体地址或注意事项"
+                    android:maxLines="3"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--放置底部“提交”和“清除”按钮-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/btn_commit_request"
+                        android:layout_width="120sp"
+                        android:layout_height="42sp"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="16dp"
+                        android:background="@drawable/save_button_bg"
+                        android:backgroundTint="@android:color/holo_blue_light"
+                        android:text="提交" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/btn_clear_request"
+                        android:layout_width="120sp"
+                        android:layout_height="42sp"
+                        android:layout_marginRight="25dp"
+                        android:textSize="16dp"
+                        android:background="@drawable/cancel_button_bg"
+                        android:backgroundTint="@android:color/darker_gray"
+                        android:text="清除" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--此处设置bottom是没用的，因为父布局是vertical的，所以只有水平方向的设置才有效-->
+    <!--此页面由于想让Table居中，所以宽度设置成了wrap_content，所以父布局必须vertical，不然表格那几行会乱塞东西-->
+    <!--解决的方法就是把之前所有的东西装在一个Layout中，并让它权重为1-->
+    <com.example.dell.demo.NavigateLayout
+        android:id="@+id/ask_help_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>

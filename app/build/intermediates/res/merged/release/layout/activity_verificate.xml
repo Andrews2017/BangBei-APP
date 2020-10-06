@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logoicon"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tel2"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/user_tel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="电话号码"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/verifcation"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/user_telCode"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="验证码"/>
+        <!--<Button-->
+            <!--android:id="@+id/"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="获取验证码"/>-->
+        <Button
+            android:id="@+id/btn_getTelCode"
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:textSize="13dp"
+            android:background="@drawable/save_button_bg"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="获取验证码" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_verificateNextStep"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:background="@drawable/save_button_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="下一步" />
+
+    <Button
+        android:id="@+id/btn_verificateReturn"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:background="@drawable/save_button_bg"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="返回" />
+
+</LinearLayout>

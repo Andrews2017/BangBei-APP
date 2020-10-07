@@ -7,7 +7,7 @@ It has two main features:
 
 The detailed documentation of BangBei can be seen in "doc" folder.
 ## Installation
-To install our App, click on this [link](https://drive.google.com/drive/folders/1mYh1lzrUecEMLVlhI70oCcWoHa-5HqCm), download it and follow the instructions.
+To install BangBei, click on this [link](https://drive.google.com/drive/folders/1mYh1lzrUecEMLVlhI70oCcWoHa-5HqCm), download it and follow the instructions.
 ## Tools used
 - Android Studio
 - Java
